@@ -1,13 +1,16 @@
 <div class="header-container">
   <div class="header-container_inner-container">
-    <h1 class="header-title"> Silver Shop</h1>
+    <h1 class="header-title"> The Silver Shop</h1>
+    <div class="sub_header-title">
+      <h2 class="sub-title"> Your choice for Native American jewelry and collectibles!</h2>
+    </div>
     <div class="top-nav">
       <div class="top-nav_items">
-        <p class="button">home</p>
-        <p>necklaces</p>
-        <p>bracelets</p>
-        <p>pendants</p>
-        <p>dream catchers</p>
+        <button class="button">Home</button>
+        <button class="button">Necklaces</button>
+        <button class="button">Bracelets</button>
+        <button class="button">Pendants</button>
+        <button class="button">Dream Catchers</button>
       </div>
     </div>
   </div>
@@ -17,6 +20,17 @@
   <div class="side-menu">
     <div class="side-menu_title">
       <h2>Menu</h2>
+    </div>
+    <div class="information">
+      <div class="about">
+      <button class="button">About</button>
+    </div>
+    <div class="about2">
+      <button class="button">About2</button>
+    </div>
+    <div class="fun_links">
+      <button class="button">Fun Links</button>
+    </div>
     </div>
   </div>
   <div class="main-content">
@@ -39,9 +53,8 @@
         </div>
       </div>
 
+      {{outlet}}
+
     </div>
   </div>
 </div>
-
-
-{{outlet}}
